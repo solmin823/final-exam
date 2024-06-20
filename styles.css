@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header{
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.introduction{
+    padding: 1em;
+    background: #e7f5e6;
+}
+
+.journey ul li{
+    color: #333;
+    margin-left: 1em;
+}
+
+main > section{
+    margin: 2em;
+    padding: 1em;
+    border: 1px;
+    border-style: solid;
+    border-color: #ddd;
+    border-radius: 8px;
+}
+
+.introduction + .journey{
+    background-color: #ffefdb;
+}
+
+.introduction ~ .journey{
+    border-left: 5px;
+    border-style: solid;
+    border-color: #FFA726;
+}
+
+.dragon-encounter::before{
+    display: block;
+    margin: 0 auto 1 em;
+    max-width: 100%;
+    height: auto;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+    bottom: 0;
+}
+
+.dragon-encounter{
+    background-color: #c4c4c4;
+}
+
